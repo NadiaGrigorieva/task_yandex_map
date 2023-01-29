@@ -134,7 +134,7 @@ def main():
                 m = (m + 1) % 3
                 text = smallfont.render(a[m], True, color)
                 mp.change()
-            if x2 <= mouse[0] <= x2 + 140 and y1 <= mouse[1] <= y2 + 40:
+            if x2 <= mouse[0] <= x2 + 140 and y2 <= mouse[1] <= y2 + 40:
                 mp.cen()
                 fl = True
         map_file = load_map(mp)
